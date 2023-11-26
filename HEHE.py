@@ -152,7 +152,7 @@ class create:
         OO = '\033[0;94m'
         for x in range(lim):
             self.loop += 1
-            sys.stdout.write(f'\r {OO}[Creat-fb] {OO}{self.loop}/{str(lim)} OK:{len(ok)} - CP:{len(cp)}{OO} '),
+            sys.stdout.write(f'\r {OO}[CLONE] {OO}{self.loop}/{str(lim)} OK:{len(ok)} - CP:{len(cp)}{OO} '),
             sys.stdout.flush()
             if 'boy' in self.gender:
                 name = random.choice(boy).split(' ')
